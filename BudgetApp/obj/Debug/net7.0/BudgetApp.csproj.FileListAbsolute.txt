@@ -1,0 +1,15 @@
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\bin\Debug\net7.0\BudgetApp.exe
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\bin\Debug\net7.0\BudgetApp.deps.json
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\bin\Debug\net7.0\BudgetApp.runtimeconfig.json
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\bin\Debug\net7.0\BudgetApp.dll
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\bin\Debug\net7.0\BudgetApp.pdb
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\obj\Debug\net7.0\BudgetApp.csproj.AssemblyReference.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\obj\Debug\net7.0\BudgetApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\obj\Debug\net7.0\BudgetApp.AssemblyInfoInputs.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\obj\Debug\net7.0\BudgetApp.AssemblyInfo.cs
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\obj\Debug\net7.0\BudgetApp.csproj.CoreCompileInputs.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\obj\Debug\net7.0\BudgetApp.dll
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\obj\Debug\net7.0\refint\BudgetApp.dll
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\obj\Debug\net7.0\BudgetApp.pdb
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\obj\Debug\net7.0\BudgetApp.genruntimeconfig.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\BudgetApp\obj\Debug\net7.0\ref\BudgetApp.dll
