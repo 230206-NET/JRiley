@@ -1,0 +1,12 @@
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\bin\Debug\net7.0\RockPaperScissors.deps.json
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\bin\Debug\net7.0\RockPaperScissors.dll
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\bin\Debug\net7.0\RockPaperScissors.pdb
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\obj\Debug\net7.0\RockPaperScissors.csproj.AssemblyReference.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\obj\Debug\net7.0\RockPaperScissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\obj\Debug\net7.0\RockPaperScissors.AssemblyInfoInputs.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\obj\Debug\net7.0\RockPaperScissors.AssemblyInfo.cs
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\obj\Debug\net7.0\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\obj\Debug\net7.0\RockPaperScissors.dll
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\obj\Debug\net7.0\refint\RockPaperScissors.dll
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\obj\Debug\net7.0\RockPaperScissors.pdb
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\RockPaperScissors\obj\Debug\net7.0\ref\RockPaperScissors.dll

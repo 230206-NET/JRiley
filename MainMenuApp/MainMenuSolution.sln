@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstDotnet", "..\firstDotnet\firstDotnet.csproj", "{FA4E93BC-7D0B-4BC8-A0FA-D47532494FC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinFlipper", "..\CoinFlipper\CoinFlipper.csproj", "{D7B05B7D-C5E0-40DA-9491-95767FA17364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetApp", "..\BudgetApp\BudgetApp.csproj", "{5D806A0A-4FBC-4891-A942-1755BCAD93A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotOrCold", "..\HotOrCold\HotOrCold.csproj", "{32A0700F-81DB-4A5B-9147-5350D3194316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "..\Hangman\Hangman.csproj", "{2F7AE571-4C08-4E29-9F52-63ABB709F305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "..\RockPaperScissors\RockPaperScissors.csproj", "{6F56A59F-06F0-4E29-94AA-94A1D5320E18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA4E93BC-7D0B-4BC8-A0FA-D47532494FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4E93BC-7D0B-4BC8-A0FA-D47532494FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4E93BC-7D0B-4BC8-A0FA-D47532494FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4E93BC-7D0B-4BC8-A0FA-D47532494FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B05B7D-C5E0-40DA-9491-95767FA17364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B05B7D-C5E0-40DA-9491-95767FA17364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B05B7D-C5E0-40DA-9491-95767FA17364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B05B7D-C5E0-40DA-9491-95767FA17364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D806A0A-4FBC-4891-A942-1755BCAD93A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D806A0A-4FBC-4891-A942-1755BCAD93A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D806A0A-4FBC-4891-A942-1755BCAD93A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D806A0A-4FBC-4891-A942-1755BCAD93A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A0700F-81DB-4A5B-9147-5350D3194316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A0700F-81DB-4A5B-9147-5350D3194316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A0700F-81DB-4A5B-9147-5350D3194316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A0700F-81DB-4A5B-9147-5350D3194316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7AE571-4C08-4E29-9F52-63ABB709F305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7AE571-4C08-4E29-9F52-63ABB709F305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7AE571-4C08-4E29-9F52-63ABB709F305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7AE571-4C08-4E29-9F52-63ABB709F305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F56A59F-06F0-4E29-94AA-94A1D5320E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F56A59F-06F0-4E29-94AA-94A1D5320E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F56A59F-06F0-4E29-94AA-94A1D5320E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F56A59F-06F0-4E29-94AA-94A1D5320E18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\bin\Debug\net7.0\addEven.exe
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\bin\Debug\net7.0\addEven.deps.json
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\bin\Debug\net7.0\addEven.runtimeconfig.json
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\bin\Debug\net7.0\addEven.dll
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\bin\Debug\net7.0\addEven.pdb
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\obj\Debug\net7.0\addEven.csproj.AssemblyReference.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\obj\Debug\net7.0\addEven.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\obj\Debug\net7.0\addEven.AssemblyInfoInputs.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\obj\Debug\net7.0\addEven.AssemblyInfo.cs
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\obj\Debug\net7.0\addEven.csproj.CoreCompileInputs.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\obj\Debug\net7.0\addEven.dll
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\obj\Debug\net7.0\refint\addEven.dll
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\obj\Debug\net7.0\addEven.pdb
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\obj\Debug\net7.0\addEven.genruntimeconfig.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\firstCodingChallenge\addEven\obj\Debug\net7.0\ref\addEven.dll

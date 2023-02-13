@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MainMenuApp/1.0.0": {
+        "dependencies": {
+          "BudgetApp": "1.0.0",
+          "CoinFlipper": "1.0.0",
+          "Hangman": "1.0.0",
+          "HotOrCold": "1.0.0",
+          "RockPaperScissors": "1.0.0",
+          "firstDotnet": "1.0.0"
+        },
+        "runtime": {
+          "MainMenuApp.dll": {}
+        }
+      },
+      "BudgetApp/1.0.0": {
+        "runtime": {
+          "BudgetApp.dll": {}
+        }
+      },
+      "CoinFlipper/1.0.0": {
+        "runtime": {
+          "CoinFlipper.dll": {}
+        }
+      },
+      "firstDotnet/1.0.0": {
+        "runtime": {
+          "firstDotnet.dll": {}
+        }
+      },
+      "Hangman/1.0.0": {
+        "runtime": {
+          "Hangman.dll": {}
+        }
+      },
+      "HotOrCold/1.0.0": {
+        "runtime": {
+          "HotOrCold.dll": {}
+        }
+      },
+      "RockPaperScissors/1.0.0": {
+        "runtime": {
+          "RockPaperScissors.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MainMenuApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BudgetApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoinFlipper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "firstDotnet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hangman/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotOrCold/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RockPaperScissors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

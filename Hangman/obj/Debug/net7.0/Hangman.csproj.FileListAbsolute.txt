@@ -1,6 +1,4 @@
-C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\bin\Debug\net7.0\Hangman.exe
 C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\bin\Debug\net7.0\Hangman.deps.json
-C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\bin\Debug\net7.0\Hangman.runtimeconfig.json
 C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\bin\Debug\net7.0\Hangman.dll
 C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\bin\Debug\net7.0\Hangman.pdb
 C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\obj\Debug\net7.0\Hangman.csproj.AssemblyReference.cache
@@ -11,5 +9,4 @@ C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\obj\Debug\net7.0\Hangma
 C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\obj\Debug\net7.0\Hangman.dll
 C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\obj\Debug\net7.0\refint\Hangman.dll
 C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\obj\Debug\net7.0\Hangman.pdb
-C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\obj\Debug\net7.0\Hangman.genruntimeconfig.cache
 C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Hangman\obj\Debug\net7.0\ref\Hangman.dll
