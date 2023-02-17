@@ -8,7 +8,7 @@ using Hangman;
 
 Console.WriteLine("Welcome to the Main Menu Application");
 
-Console.WriteLine("\nPlease Select a program using its respective number");
+Console.WriteLine("\nPlease Select a program using its respective number: ");
 
 while(true) {
     Console.WriteLine("\n[1] FirsDotNet");

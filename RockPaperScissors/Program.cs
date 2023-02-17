@@ -29,8 +29,34 @@ public class RockPaperGame {
             return cpuMove;
             }
 
+            string calculateWin(){
+                string message = "";
+            if (userWins > cpuWins) {
+                message = "\nCONGRATULATIONS!! YOU WON THE MATCH!!";
+                return message;
+            } 
+            else {
+                message = "\nSORRY! THE CPU WINS :(";
+                return message;
+            }
+            }            
 
+            string checkMove(string userIn){
 
+                foreach (string item in validMoves)
+                {
+                    if (userIn.Equals(cpuMove)){
+                Console.WriteLine(cpuMove);
+                Console.WriteLine("\nYou tied this round, please try again!");
+                break;
+                    }
+                    if (userIn.Equals(item)){
+                        break;
+                    }
+                }
+                return "\nInvalid Move, please try again..\n";
+            }
+            
             while(userWins < games && cpuWins < games) {
 
             cpuMove = getCpuMove();
@@ -39,16 +65,15 @@ public class RockPaperGame {
             string userInput = Console.ReadLine()!;
             string userMove = userInput.ToUpper();
 
-            if (userMove.Equals("")) {
-                Console.WriteLine("\nInvalid input, please enter Rock, Paper, or Scissors");
-                continue;
-            }
 
-            if (userMove.Equals(cpuMove)){
-                Console.WriteLine("Tie Game, try again!");
-                continue;
-            }
-            else {
+            // if (userMove.Equals(cpuMove)){
+            //     Console.WriteLine("\nYou tied this round, try again!");
+            //     continue;
+            // }
+
+            Console.WriteLine(cpuMove);
+            Console.WriteLine(checkMove(userMove));
+
 
             switch(userMove) {
                 case "ROCK":
@@ -85,20 +110,14 @@ public class RockPaperGame {
                         break;
                     }
                 default: 
-                    Console.WriteLine("Invalid Input, please try again!\n");
+                    Console.WriteLine(checkMove(userInput));
                     break;
                 
             }
             Console.WriteLine("The Score is: \n" + "-------------\n" + "USER: " + userWins + "\n-------------" + "\nCPU: " + cpuWins + "\n-------------");
+            
             }
-            }
-
-            if (userWins > cpuWins) {
-            Console.WriteLine("CONGRATULATIONS!! YOU WON THE MATCH!!");
-            } 
-            else {
-            Console.WriteLine("\nSORRY! THE CPU WINS :(");
-            }
+            Console.WriteLine(calculateWin());
         }
     }
 
