@@ -1,0 +1,5 @@
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Project1\obj\Debug\net7.0\Project1.csproj.AssemblyReference.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Project1\obj\Debug\net7.0\Project1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Project1\obj\Debug\net7.0\Project1.AssemblyInfoInputs.cache
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Project1\obj\Debug\net7.0\Project1.AssemblyInfo.cs
+C:\Users\boneb\Revature\230206-NET\myWork\JRiley\Project1\obj\Debug\net7.0\Project1.csproj.CoreCompileInputs.cache

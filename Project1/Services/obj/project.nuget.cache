@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AOWZZewKQ+91m/2Uaif6gjLR8ZfuzrWy4Y8cuOSKjaDHcvf8Kk4KYrgJfFxcQpaNq2SE17+vwiKfeVxCygCtZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\boneb\\Revature\\230206-NET\\myWork\\JRiley\\Project1\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\boneb\\.nuget\\packages\\serilog\\3.0.0-dev-01862\\serilog.3.0.0-dev-01862.nupkg.sha512"
+  ],
+  "logs": []
+}

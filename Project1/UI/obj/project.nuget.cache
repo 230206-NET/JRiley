@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ovvNN97a6nVYlhIPsnjdbcpoiybCoBSfZj15yS8ma0Us/mKDbfTF8Put0b6HNgcp2S6CvCVDG6s9F+W67yERMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\boneb\\Revature\\230206-NET\\myWork\\JRiley\\Project1\\UI\\UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\boneb\\.nuget\\packages\\serilog\\3.0.0-dev-01862\\serilog.3.0.0-dev-01862.nupkg.sha512",
+    "C:\\Users\\boneb\\.nuget\\packages\\serilog.sinks.console\\4.1.0\\serilog.sinks.console.4.1.0.nupkg.sha512",
+    "C:\\Users\\boneb\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

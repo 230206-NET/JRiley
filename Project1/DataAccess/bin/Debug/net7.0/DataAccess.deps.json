@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0",
+          "Serilog": "3.0.0-dev-01862"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
+      },
+      "Serilog/3.0.0-dev-01862": {
+        "runtime": {
+          "lib/net7.0/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serilog/3.0.0-dev-01862": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uGRiNZlCnL5WxwzTNL+DHSIX349noip4DCrt/4VxoTL1tvLBtzPr1oZHzZquRaIPthuyMHRMsGz/XGPKJuazEg==",
+      "path": "serilog/3.0.0-dev-01862",
+      "hashPath": "serilog.3.0.0-dev-01862.nupkg.sha512"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
