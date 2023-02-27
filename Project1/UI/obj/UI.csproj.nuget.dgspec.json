@@ -47,6 +47,10 @@
             "Serilog": {
               "target": "Package",
               "version": "[3.0.0-dev-01862, )"
+            },
+            "microsoft.data.sqlclient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             }
           },
           "imports": [

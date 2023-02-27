@@ -7,6 +7,8 @@ public interface IRepository
 
     Employee AddUser(Employee user);
 
-    //List<ExpenseTicket> GetExpenseTickets();
+    List<ExpenseTicket> GetExpenseTickets();
+
+    ExpenseTicket AddExpense(ExpenseTicket ticket);
 
 }

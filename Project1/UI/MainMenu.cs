@@ -1,5 +1,6 @@
 using Models;
 using Services;
+using DataAccess;
 
 namespace UI;
 
@@ -8,6 +9,7 @@ public class StartMenu{
     private readonly UserService _service;
 
     public StartMenu(UserService serviceIn) {
+
         _service = serviceIn;
     }
 
@@ -26,7 +28,7 @@ public class StartMenu{
                     break;
                 case 1:
                     userLogin();
-                    break;
+                    continue;
                 case 2:
                     ActivateAccount();
                     break;
@@ -42,7 +44,6 @@ public class StartMenu{
 
     private void userLogin(){
         while (true){
-        const string managerKey = "manPWD!";
         Console.Write("Enter username: ");
         string username = Console.ReadLine()!;
         Console.Write("Enter password: ");
@@ -50,25 +51,23 @@ public class StartMenu{
         
         
         Employee user = _service.VerifyUser(username, password);
-            
-        
         
             if (user == null) {
                 Console.WriteLine("login failed, try again");
                 continue;
             }
 
-            if(!user.userID.Equals(managerKey)){
-                new EmployeeUI(user).Begin();
+            if(!user.employeeType.Equals("Manager")){
+                new EmployeeUI(user,_service).Begin();
             }
             else {
-                new ManagerUI(user).Begin();
+                new ManagerUI(user, _service).Begin();
             }
+            break;
         }
     }
 
     private void ActivateAccount() {
-        string managerKey = "manPWD!";
         Console.Write("Enter your first name: ");
         string fname = Console.ReadLine()!;
         Console.Write("Enter Your Last Name: ");
@@ -99,10 +98,10 @@ public class StartMenu{
             newUser.employeeType = "Manager";
             Console.WriteLine("Please Enter The Manager Key Code: ");
             string response = Console.ReadLine()!;
-            if (!response.Equals(managerKey)) {
+            if (!response.Equals(Key.getManagerKey())) {
                 Console.WriteLine("Invalid Key, please try again or choose another Job Description.");
             }
-            else if (response.Equals(managerKey)){
+            else if (response.Equals(Key.getManagerKey())){
                 Console.WriteLine("Creating Account...");
                 Console.WriteLine("Please Enter Your userID: ");
                 newUser.userID = Console.ReadLine()!;
@@ -111,5 +110,10 @@ public class StartMenu{
 
         _service.CreateAccount(newUser);
 
+    }
+
+    internal static void Begin(UserService service)
+    {
+        throw new NotImplementedException();
     }
 }
