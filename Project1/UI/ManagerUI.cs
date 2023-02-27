@@ -23,18 +23,18 @@ public class ManagerUI{
             Console.WriteLine("[3]: Edit Employee Role");
             Console.WriteLine("[4]: Log Out");
 
-            int choice = int.Parse(Console.ReadLine()!);
+            string choice = (Console.ReadLine()!);
 
             switch(choice) {
-                case 1:
+                case "1":
                     DisplayPendingTickets();
                     continue;
-                case 2:
+                case "2":
                     ManageTickets();
                     continue;
-                case 3:
+                case "3":
                     break;
-                case 4:
+                case "4":
                     break;
                 default:
                     Console.WriteLine("Invalid Option: Please Try Again");

@@ -14,27 +14,28 @@ public class StartMenu{
     }
 
     public void Begin() {
-        while (true) {
+        
             Console.WriteLine("Welcome to the Expense Reimbursement Applicaion!");
             Console.WriteLine("Please Select From the Following Menu: ");
+        while (true) {
             Console.WriteLine("[1] User Login");
             Console.WriteLine("[2] Create User");
             Console.WriteLine("[0] To Exit");
 
-            int response = int.Parse(Console.ReadLine()!);
+            string response = (Console.ReadLine()!);
 
             switch (response) {
-                case 0:
+                case "0":
                     break;
-                case 1:
+                case "1":
                     userLogin();
                     continue;
-                case 2:
+                case "2":
                     ActivateAccount();
                     break;
                 default:
-                    Console.WriteLine("Error! Invalid Option... Please Try Again");
-                    break;
+                    Console.WriteLine("Error! Invalid Option... Please Try Again\n");
+                    continue;
             }
         Console.WriteLine("Exiting the Program...");
         break;
@@ -44,6 +45,7 @@ public class StartMenu{
 
     private void userLogin(){
         while (true){
+
         Console.Write("Enter username: ");
         string username = Console.ReadLine()!;
         Console.Write("Enter password: ");
@@ -53,7 +55,7 @@ public class StartMenu{
         Employee user = _service.VerifyUser(username, password);
         
             if (user == null) {
-                Console.WriteLine("login failed, try again");
+                Console.WriteLine("Incorrect username or password, please try again.");
                 continue;
             }
 
@@ -86,7 +88,7 @@ public class StartMenu{
         Console.WriteLine("[1] Employee: ");
         Console.WriteLine("[2] Manager: ");
 
-        int answer = int.Parse(Console.ReadLine()!);
+        string answer = (Console.ReadLine()!);
 
         if (newUser.PickEmpType(answer).Equals("Employee")){
             newUser.employeeType = "Employee";
@@ -107,13 +109,12 @@ public class StartMenu{
                 newUser.userID = Console.ReadLine()!;
             }
         }
-
-        _service.CreateAccount(newUser);
-
+        try{
+            _service.CreateAccount(newUser);
+        }
+        catch(Exception ex){
+            Console.WriteLine("Error! Something happened in account creation: ", ex);
+        }
     }
 
-    internal static void Begin(UserService service)
-    {
-        throw new NotImplementedException();
-    }
 }

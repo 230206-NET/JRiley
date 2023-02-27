@@ -19,7 +19,7 @@ Log.Logger = new LoggerConfiguration()
     try {
         Log.Information("Application Starting...");
 
-        IRepository repo = new FileStorage();
+        IRepository repo = new DBRepository();
 
         UserService service = new UserService(repo);
 

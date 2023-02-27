@@ -96,18 +96,22 @@ public class UserService {
                 Console.WriteLine("[1]: To Approve the Reimbursement Request");
                 Console.WriteLine("[2]: To Deny the Reimbursement Request");
                 Console.WriteLine("[3]: Exit");
-                int choice = int.Parse(Console.ReadLine());
+                string choice = (Console.ReadLine()!);
                 switch(choice){
-                    case 1:
-                        _iRepo.GetExpenseTickets()[i].tickStat = "Approved";
+                    case "1":
+                        _iRepo.ApproveTickets(tickID);
                         break;
-                    case 2:
+                    case "2":
                         _iRepo.GetExpenseTickets()[i].tickStat = "Denied";
+                        break;
+                    case "3":
                         break;
                     default:
                         Console.WriteLine("Invalid input, please try again.");
                         break;
                 }
+                Console.WriteLine("Exiting...");
+                break;
             }
             else{
                 Console.WriteLine("Error, This Ticket I.D. Does Not Exist");

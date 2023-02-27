@@ -10,12 +10,12 @@ public class Employee {
     public string password {get;set;}
     public string employeeType {get;set;}
 
-    public List<ExpenseTicket>? empTickets {get;set;}
+    // public List<ExpenseTicket>? empTickets {get;set;}
 
-    public List<Employee> empList {get;set;}
+    // public List<Employee> empList {get;set;}
 
 public Employee (){
-    empList = new List<Employee>();
+    // empList = new List<Employee>();
 }
     public Employee(string nameIn, string usernameIn, string userIDIn, string passwordIn, string employeeTypeIn) {
         empName = nameIn;
@@ -23,19 +23,19 @@ public Employee (){
         userID = userIDIn;
         password = passwordIn;
         employeeType = employeeTypeIn;
-        empTickets = new List<ExpenseTicket>();
+        // empTickets = new List<ExpenseTicket>();
     }
 
 
 
 
-    public string PickEmpType(int typeIn){
+    public string PickEmpType(string typeIn){
 
 
         switch(typeIn) {
-            case 1:
+            case "1":
                 return "Employee";
-            case 2:
+            case "2":
                 return "Manager";
             default:
                 return "Invalid employee type";

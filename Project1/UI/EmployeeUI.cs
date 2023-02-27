@@ -25,16 +25,16 @@ public class EmployeeUI{
             Console.WriteLine("[2]: Make an Expense Reimbursement Request");
             Console.WriteLine("[3]: Log Out");
 
-            int choice = int.Parse(Console.ReadLine()!);
+            string choice = Console.ReadLine()!;
 
             switch(choice){
-                case 1:
+                case "1":
                     DisplayTickets();
                     continue;
-                case 2:
+                case "2":
                     ExpenseMaker();
                     continue;
-                case 3:
+                case "3":
                     break;
                 default:
                     Console.WriteLine("Error, Invalid Option. Please Try Again!");
@@ -55,14 +55,17 @@ public class EmployeeUI{
     private void ExpenseMaker() {
         while(true) {
             Console.WriteLine("Please Enter the Expense Amount: ");
-            double expense = double.Parse(Console.ReadLine()!);
+            float expense = float.Parse(Console.ReadLine()!);
+            Console.WriteLine("What Kind Expense is it?: ");
+            string tickType = Console.ReadLine()!;
             Console.WriteLine("Please Give a Description of the Expense: ");
             string expenseDescription = Console.ReadLine()!;
             string currentStatus = "Pending";
-            ExpenseTicket newTicket = new ExpenseTicket(0,"", 0.0, "", "");
+            ExpenseTicket newTicket = new ExpenseTicket(0,"", 0, "", "", "");
 
             newTicket.ticketID = _service.generateTicketID();
             newTicket.userID = user.userID;
+            newTicket.ticketType = tickType;
             newTicket.ticketDescription = expenseDescription;
             newTicket.expenseAmount = expense;
             newTicket.tickStat = currentStatus;

@@ -5,7 +5,7 @@ namespace Models;
 
 public class ExpenseTicket{
 
-    public double expenseAmount {get;set;}
+    public float expenseAmount {get;set;}
 
     public string ticketDescription {get;set;}
 
@@ -15,7 +15,9 @@ public class ExpenseTicket{
 
     public int ticketID {get;set;}
 
-    public DateTime ticketDate {get;set;} = DateTime.Now;
+    public string ticketType {get;set;}
+
+    //public DateTime ticketDate {get;set;} = DateTime.Now;
 
     public ExpenseTicket(){
 
@@ -23,17 +25,18 @@ public class ExpenseTicket{
 
 
 
-    public ExpenseTicket(int ticketIdIn, string userIDIn, double expenseAmountIn, string ticketDescriptionIn, string statusIn){
+    public ExpenseTicket(int ticketIdIn, string userIDIn, float expenseAmountIn,string ticketTypeIn, string ticketDescriptionIn, string statusIn){
         ticketID = ticketIdIn;
         userID = userIDIn;
         expenseAmount = expenseAmountIn;
+        ticketType = ticketTypeIn;
         ticketDescription = ticketDescriptionIn;
         tickStat = statusIn;
     }
 
     public override string ToString(){
         StringBuilder sb = new();
-        sb.Append($"Date: {this.ticketDate}");
+        // sb.Append($"Date: {this.ticketDate}");
         sb.Append($"Ticket ID: {this.ticketID}\n");
         sb.Append($"User ID: {this.userID}\nExpense Description: {this.ticketDescription}\nExpense Amount: {this.expenseAmount}\n");
         sb.Append($"Status: {this.tickStat}\n");

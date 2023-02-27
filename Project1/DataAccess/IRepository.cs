@@ -11,4 +11,6 @@ public interface IRepository
 
     ExpenseTicket AddExpense(ExpenseTicket ticket);
 
+    void ApproveTickets(int ticketID);
+
 }
