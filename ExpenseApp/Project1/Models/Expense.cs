@@ -22,19 +22,25 @@ public class ExpenseTicket{
     public string managedBy {get;set;}
 
     public ExpenseTicket(){
+        ticketID = 0;
+        userID = "";
+        expenseAmount = 0;
+        ticketType = "";
+        ticketDescription = "";
+        tickStat = "";
 
     }
 
 
 
-    // public ExpenseTicket(int ticketIdIn, string userIDIn, float expenseAmountIn,string ticketTypeIn, string ticketDescriptionIn, string statusIn){
-    //     ticketID = ticketIdIn;
-    //     userID = userIDIn;
-    //     expenseAmount = expenseAmountIn;
-    //     ticketType = ticketTypeIn;
-    //     ticketDescription = ticketDescriptionIn;
-    //     tickStat = statusIn;
-    // }
+    public ExpenseTicket(int ticketIdIn, string userIDIn, float expenseAmountIn,string ticketTypeIn, string ticketDescriptionIn, string statusIn){
+        ticketID = ticketIdIn;
+        userID = userIDIn;
+        expenseAmount = expenseAmountIn;
+        ticketType = ticketTypeIn;
+        ticketDescription = ticketDescriptionIn;
+        tickStat = statusIn;
+    }
 
     public override string ToString(){
         StringBuilder sb = new();
