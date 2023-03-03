@@ -1,4 +1,4 @@
-DROP table EmployeeTickets
+
 
 create table EmployeeTable (
     EmployeeName NVARCHAR(50),
@@ -22,3 +22,5 @@ create table EmployeeTickets(
 
 SELECT * from EmployeeTable
 SELECT * from EmployeeTickets
+
+Delete from EmployeeTickets where TicketID = 

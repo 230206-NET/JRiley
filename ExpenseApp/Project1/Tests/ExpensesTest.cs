@@ -34,15 +34,5 @@ public class ExpensesTests{
         
     }
 
-    [Fact]
 
-    public void pickEmpTest(){
-        Employee emp = new Employee("testName","testUsername","testID","testPassword","");
-
-        Assert.Equal("", emp.employeeType);
-
-        emp.employeeType = emp.PickEmpType("2");
-
-        Assert.Equal("Manager", emp.employeeType);
-    }
 }

@@ -20,9 +20,5 @@ create table EmployeeTickets(
 )
 
 
-UPDATE EmployeeTickets SET TicketStatus = 'Approved' WHERE TicketID = 1766;
-
 SELECT * from EmployeeTable
 SELECT * from EmployeeTickets
-
-DELETE from EmployeeTable where EmployeeName = 'Key Lime'

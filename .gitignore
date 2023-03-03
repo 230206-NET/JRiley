@@ -5,6 +5,7 @@
 **/dist
 **/Secrets.cs
 **/Key.cs
+**/appsettings.Development.json
 # Marks files
 MarksLessonsLearned.txt
 #ReimbursementApi/

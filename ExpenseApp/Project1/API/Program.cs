@@ -158,6 +158,6 @@ app.MapPost("/tickets/create", ([FromBody] ExpenseTicket tick, UserService servi
 
 
 //displays "Hello World"
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Welcome To John's Expense Reimbursement App!");
 
 app.Run();
