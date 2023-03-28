@@ -41,4 +41,9 @@ jobs:
           dotnet build
       - name: Where are we now?
         run: pwd
+      - name: Running Tests
+        run: |
+          cd ExpenseApp
+          cd Project1/Tests
+          dotnet test
       
