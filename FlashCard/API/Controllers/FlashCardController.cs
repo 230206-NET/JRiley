@@ -48,6 +48,7 @@ public class FlashCardController : ControllerBase
     [Route("card/Delete/{id:int}")]
     public Flashcard DeleteCard(int id){
         return _service.DeleteCard(id);
+         
     }
 
 }
